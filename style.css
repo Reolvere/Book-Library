@@ -18,9 +18,8 @@ body{
 
 .displayed-book{
     display: flex;
-    gap: 30px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     border-radius: 10px;
     height: 40px;
     width: 400px;
@@ -45,6 +44,7 @@ button:hover{
 
 .remove-btn{
     width: 50px;
+    margin-right: 10px;
 }
 
 .remove-btn:hover{
